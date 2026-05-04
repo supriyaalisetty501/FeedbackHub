@@ -2,8 +2,6 @@
 
 A modern, responsive **customer feedback management system** that allows users to submit ratings, reviews, names, and email details through an elegant UI — while automatically storing feedback data in an Excel sheet for easy tracking and analysis.
 
-## Homepage
-![Homepage](screenshots/homepage.png)
 
 ## Feedback Form
 ![Feedback Form](screenshots/feedback-form.png)
@@ -14,7 +12,6 @@ A modern, responsive **customer feedback management system** that allows users t
 ## Excel Stored Data
 ![Excel Data](screenshots/excel-data.png)
 
-<img src="screenshots/homepage.png" width="800" alt="Homepage"/>
 
 ## ✨ Features
 
