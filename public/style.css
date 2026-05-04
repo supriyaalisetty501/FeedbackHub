@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #84fab0, #8fd3f4);
+}
+
+/* Feedback Card */
+.container {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: #333;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.container p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Rating Section */
+.rating-section {
+    margin-bottom: 20px;
+}
+
+.rating-section h3 {
+    margin-bottom: 10px;
+}
+
+.stars {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.star {
+    color: #bbb;
+    transition: 0.3s;
+}
+
+.star:hover {
+    transform: scale(1.2);
+}
+
+.star.active {
+    color: gold;
+}
+
+/* Inputs */
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #f8f9fa;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Character Counter */
+.char-count {
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #2ecc71;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #27ae60;
+    transform: scale(1.05);
+}
+
+/* Thank You Message */
+.container h3 {
+    margin-top: 15px;
+    color: #2ecc71;
+}
