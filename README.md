@@ -4,13 +4,13 @@ A modern, responsive **customer feedback management system** that allows users t
 
 
 ## Feedback Form
-![Feedback Form](screenshots/feedback-form.png)
+![Feedback Form](feedback-form.png)
 
 ## Thank You Page
-![Thank You Page](screenshots/thankyou-page.png)
+![Thank You Page](thankyou-page.png)
 
 ## Excel Stored Data
-![Excel Data](screenshots/excel-data.png)
+![Excel Data](excel-data.png)
 
 
 ## ✨ Features
